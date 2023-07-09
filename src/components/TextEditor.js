@@ -8,10 +8,10 @@ export default function TextEditor(){
     content: '<p>Hello World!</p>',
     editorProps: {
       attributes: {
-        class: styles.Editor,
+        class: styles.editor1,
       },
     },
   });
 
-  return <EditorContent editor={editor} />;
+  return <EditorContent editor={editor} className={styles.editor2}/>;
 }

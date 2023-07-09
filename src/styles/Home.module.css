@@ -1,4 +1,18 @@
-.Editor {
+.editor1 {
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid green;
+}
+
+.editor2 {
+  height: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid blue;
+}
+
+.textEditorHolder {
   height: 100vh;
-  background-color: '#fff';
+  max-width: 1200px;
+  border: 1px solid black;
 }
